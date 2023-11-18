@@ -45,15 +45,21 @@ body {
   margin-top: 1.5rem;
   height: 30px;
   float: right;
+  width: 8rem;
 }
 
 .input {
 height: 100%;
+width: 55%;
+float: left;
 }
 
 .btn {
   height: 100%;
   border-radius: 0.3rem;
+  color: #fff;
+  background-color: red;
+  float: right;
 }
 
 
