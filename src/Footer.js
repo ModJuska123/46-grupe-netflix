@@ -25,7 +25,7 @@ const Footer = () => {
             <li>Only on netflix</li>
         </div>
         <button className="footer-btn">English</button>
-        <li>Netflix Lithuania</li>
+        <li className="netflix-ltu">Netflix Lithuania</li>
       </section>
     </footer>
   )

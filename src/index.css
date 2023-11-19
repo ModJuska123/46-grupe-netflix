@@ -122,7 +122,8 @@ body {
  justify-content: space-between;
   font-size: 1em;
   gap: 1em;
-  padding: 0 4em;;
+  padding: 0 4em;
+  padding: 4em 4em;
 }
 
 .enjoy-framework {
@@ -168,6 +169,7 @@ body {
    justify-content: space-between;
     font-size: 0.8rem;
     gap: 0.8rem;
+    padding: 4em 4em;
   }
   
 .download-framework {
@@ -198,6 +200,7 @@ body {
   justify-content: space-between;
   font-size: 0.8rem;
   gap: 0.8rem;
+  padding: 4em 4em;
   }
 
 .watch-main .watch-framework {
@@ -231,6 +234,7 @@ body {
   justify-content: space-between;
   font-size: 0.8rem;
   gap: 0.8rem;
+  padding: 4em 4em;
   }
 
 .create-main .create-framework {
@@ -296,16 +300,22 @@ body {
   flex-direction: column;
   align-items: flex-start;
   gap: 1rem;
+  padding: 4em 4em;
 }
 
 .footer-main .footer-items {
   display: grid;
-  grid-template-columns: repeat(4, 314px);
+  grid-template-columns: repeat(4, 270px);
   gap: 1rem;
-  font-size: 0,8rem;
+  font-size: 1.3em;
 }
 
 .footer-btn {
-  margin-left: 1.3rem;
+  margin-left: 2.5rem;
   padding: 0.3rem 1.3rem;
+  padding: 10px 40px;
+  font-size: 1.3em;
+}
+.netflix-ltu {
+  font-size: 1.3em;
 }
