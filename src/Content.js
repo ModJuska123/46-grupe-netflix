@@ -1,6 +1,7 @@
 import tv from './tv.png';
 import phone from './phone.png';
 import watch from './watch.png';
+import create from './create.png';
 
 const Content = () => {
 
@@ -17,7 +18,7 @@ const Content = () => {
                   <button className="item-btn">Get Started</button>
             </div>
          </section>
-         <hr/>
+         <hr className='hr'/>
          <section className="enjoy-main">
             <div className="enjoy-framework" >
                <h1 className="framework-title">Enjoy on your TV</h1>
@@ -25,7 +26,7 @@ const Content = () => {
             </div>
             <img className='item-img'src={tv}></img>
          </section>
-         <hr/>
+         <hr className='hr'/>
          <section className="download-main">
             <img className='item-img'src={phone}></img>
             <div className="download-framework" >
@@ -33,16 +34,34 @@ const Content = () => {
                <h2 className="framework-text">Watch on Smart TV's, Playstation, Xbox, Chromecast, Apple TV, Bluray player and more</h2>
             </div>
          </section>
-         <hr/>
+         <hr className='hr'/>
          <section className="watch-main">
             <div className="watch-framework">
                <h1 className="framework-title">Enjoy on your TV</h1>
                <h2 className="framework-text">Watch on Smart TV's, Playstation, Xbox, Chromecast, Apple TV, Bluray player and more</h2>
-            <img className='item-img'src={watch}></img>
             </div>
-            <hr/>
+            <img className='item-img' src={watch}></img>
          </section>
-         <hr/>
+         <hr className='hr'/>
+         <section className="create-main">
+            <img className='item-img' src={create}></img>
+            <div className="create-framework">
+               <h1 className="framework-title">Enjoy on your TV</h1>
+               <h2 className="framework-text">create on Smart TV's, Playstation, Xbox, Chromecast, Apple TV, Bluray player and more</h2>
+            </div>
+         </section>
+         <hr className='hr'/>
+         <section className='questions-main'>
+            <h1 className='questions-tytle'> Frequently Asked Questions</h1>
+            <div className='questions-answers'>Q/A</div>
+            <div className='create-mebership'>Ready to watch? Enter your email to create or restatrt your membership</div>
+            <nav className='questions-nav'>
+               <input className='email-address' alt='Email address'></input>
+               <btn className="btn-get-started">Get Started ></btn>
+            </nav>
+         </section>
+         <hr className='hr'/>
+       
       </main>
    
   )
