@@ -52,6 +52,7 @@ body {
   background-color: red;
   float: right;
   font-size: 1em;
+  cursor: pointer;
 }
 
 
@@ -112,6 +113,7 @@ body {
   background-color: red;
   float: right;
   font-size: 1em;
+  cursor: pointer;
 }
 
 .enjoy-main {
@@ -271,13 +273,32 @@ body {
   font-size: 4em;
 }
 
-.questions-answers{
-  margin-bottom: 10rem;
+.questions-main .questions-answers {
+  display: block;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  
+}
+
+.questions-btn {
+  padding: 1.8em 35em 1.8em 1em;
+  background-color:dimgray;
+  display: flex;
+  align-items:baseline;
+  font-size: 1rem;
+  cursor: pointer;
 
 }
+.questions-btn:hover {
+  background-color:darkgrey;
+  cursor: pointer;
+}
+
 .create-mebership{
 
 }
+
 .questions-nav{
   display: flex;
   align-items: center;
@@ -308,13 +329,18 @@ body {
   grid-template-columns: repeat(4, 270px);
   gap: 1rem;
   font-size: 1.3em;
+  cursor: pointer;
+
 }
+
+
 
 .footer-btn {
   margin-left: 2.5rem;
   padding: 0.3rem 1.3rem;
   padding: 10px 40px;
   font-size: 1.3em;
+  cursor: pointer;
 }
 .netflix-ltu {
   font-size: 1.3em;

@@ -53,7 +53,16 @@ const Content = () => {
          <hr className='hr'/>
          <section className='questions-main'>
             <h1 className='questions-tytle'> Frequently Asked Questions</h1>
-            <div className='questions-answers'>Q/A</div>
+            <div className='questions-answers'>
+               <button className='questions-btn'>What is Netflix?</button>
+               <button className='questions-btn'>How much does Netflix cost?</button>
+               <button className='questions-btn'>Where can I watch?</button>
+               <button className='questions-btn'>Where can I watch?</button>
+               <button className='questions-btn'>How can I watch?</button>
+               <button className='questions-btn'>What can I watch on Netflix?</button>
+               <button className='questions-btn'>Is Netflix good for kids?</button>
+               <button className='questions-btn'>Why amI seeing this language?</button>
+            </div>
             <div className='create-mebership'>Ready to watch? Enter your email to create or restatrt your membership</div>
             <nav className='questions-nav'>
                <input className='email-address' alt='Email address'></input>
