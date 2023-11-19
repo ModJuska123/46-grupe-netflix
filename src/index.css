@@ -5,22 +5,26 @@
   color: white;
   background-color: black;
 
+
 }
 
 body {
   min-height: 100vh;
   font-family: 'Arial';
   overflow-y: auto;
+  width: 1000px; 
+  margin-left: calc(50% - 500px);
 
 }
 
 .header {
-  width: calc(100% - 2px);
-  padding: 4em 4em;
+  display: block;
+}
+
+.header-listing {
   display: inline-block;
-  justify-content: flex-start;
-  align-items: center;
- 
+  width: 1000px; 
+  margin-left: calc(50% - 500px);
 }
 
 .logo {
@@ -67,6 +71,10 @@ body {
   overflow-y: auto;
   font-size: 0.8rem;
   gap: 1.2em;
+}
+
+.main-img {
+width: 62rem;
 }
 
 .hero-listing {

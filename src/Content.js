@@ -3,6 +3,7 @@ import phone from './phone.png';
 import watch from './watch.png';
 import create from './create.png';
 
+
 const Content = () => {
 
    return (

@@ -1,18 +1,19 @@
 import React from 'react'
 import logo from './logo.png';
+import untitled from './untitled.png';
 
 const Header = () => {
-  const headerStyle = {
-    backgroundColor: 'mediumblue',
-    color: '#fff'
-  }
    return (
-    <header className='header'>
-      <img className='logo' src={logo} alt="Logo"></img>
-      <div className='nav'>
-        <input className='input'></input>
-        <button className='btn'>Sign In</button>
-      </div>
+
+     <header className='header'>
+      <img className='main-img' src={untitled} alt="main-img"></img>
+        <div className='header-listing'>
+          <img className='logo' src={logo} alt="Logo"></img>
+          <div className='nav'>
+            <input className='input'></input>
+            <button className='btn'>Sign In</button>
+          </div>
+        </div>
     </header>
   )
 }
