@@ -13,7 +13,6 @@ const Header = () => {
         <input className='input'></input>
         <button className='btn'>Sign In</button>
       </div>
-      
     </header>
   )
 }
