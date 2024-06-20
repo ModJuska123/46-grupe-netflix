@@ -10,15 +10,14 @@ _Website design project_
 
 This project is for educational porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
-Site published at: https://modjuska123.github.io/46-grupe-task-management/ 
+Site published at: https://github.com/ModJuska123/46-grupe-netflix
 
-Design: [Task-mangement](https://dribbble.com/shots/17246001/attachments/12352583?mode=media)
+Design: [Netflix](https://www.netflix.com/lt/)
 
 ##  ⛳Project features/goals
 
 -  Github pages
--  responsive design
--  repetetive content generation with JS
+-  Responsive design
 
 ## ⏳ Getting Started
 
@@ -42,7 +41,7 @@ Would like to run this project locally? Open terminal and follow these steps:
 
 1. Clone the repo
     ```sh
-    git clone https://modjuska123.github.io/46-grupe-task-management/
+    git clone https://github.com/ModJuska123/46-grupe-netflix
     ```
 2. Install NPM packages
     ```sh
