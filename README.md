@@ -8,7 +8,7 @@ _Website design project_
 
 ## ⭐ About
 
-This project is for educational porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
+This project is for educational purpose only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
 Site published at: https://github.com/ModJuska123/46-grupe-netflix
 
