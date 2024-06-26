@@ -1,6 +1,6 @@
 ![LICENSE](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)
 
-# Task-management
+# Netflix
 
 _Website design project_
 
@@ -23,13 +23,13 @@ Design: [Netflix](https://www.netflix.com/lt/)
 
 ### 💻 Prerequisites
 
-Node.js - _download and install_
+1. Node.js - _download and install_
 
 ```
 https://nodejs.org
 ```
 
-Git - _download and install_
+2. Git - _download and install_
 
 ```
 https://git-scm.com
@@ -70,4 +70,4 @@ Distributed under the MIT License. See LICENSE.txt for more information.
 
 ## 🎎 Other resources
 
-No other resouces.
+No other resources.
